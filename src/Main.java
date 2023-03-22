@@ -135,9 +135,11 @@ public class Main {
 
         var differenceWeight1 = weightBoxer2 - weightBoxer1;
 
+System.out.println("Первый вариант - вычитание");
         System.out.println("Разница веса двух бойцов = " + differenceWeight1 +" " + "кг.");
 
         var differenceWeight2 = weightBoxer2 % weightBoxer1;
+        System.out.println("Второй вариант - остаток от деления");
 
         System.out.println("Разница веса двух бойцов = " + differenceWeight2 +" " + "кг.");
 
@@ -147,7 +149,7 @@ public class Main {
 
         System.out.println("Задача 8");
 
-        // Пишем код для задачи 8
+        // Пишем код для задачи 8.
 
         var totalWorkingHours = 640;
         var workingHours = 8;
